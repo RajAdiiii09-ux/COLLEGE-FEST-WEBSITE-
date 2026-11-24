@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Register - TechFest 2027
+  </title>
+  <link href="assets/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header>
+   <img alt="TechFest Logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4N6qjqHRPZAYFumaz4LYt8Esgvhl3mmNYRZHhgZnKOA&s=10"/>
+   <h1>
+    TechFest 2027
+   </h1>
+   <p>
+    College Annual Festival
+   </p>
+  </header>
+  <nav>
+   <a href="index.html">
+    Home
+   </a>
+   <a href="events.html">
+    Events
+   </a>
+   <a href="schedule.html">
+    Schedule
+   </a>
+   <a href="register.html">
+    Registration
+   </a>
+   <a href="contact.html">
+    Contact
+   </a>
+  </nav>
+  <main>
+   <h2>
+    Student Registration Form
+   </h2>
+   <form action="#" method="get">
+    <label for="name">
+     Full Name:
+    </label>
+    <input id="name" name="name" required="" type="text"/>
+    <label for="email">
+     Email:
+    </label>
+    <input id="email" name="email" required="" type="email"/>
+    <label for="phone">
+     Phone Number:
+    </label>
+    <input id="phone" name="phone" pattern="[0-9]{10}" required="" type="tel"/>
+    <label for="dept">
+     Department:
+    </label>
+    <select id="dept" name="department" required="">
+     <option value="">
+      Select Department
+     </option>
+     <option>
+      Computer Science
+     </option>
+     <option>
+      Information Technology
+     </option>
+     <option>
+      Electronics
+     </option>
+     <option>
+      Mechanical
+     </option>
+     <option>
+      Other
+     </option>
+    </select>
+    <label>
+     Year of Study:
+    </label>
+    <input name="year" required="" type="radio" value="1st Year"/>
+    1st Year
+    <input name="year" type="radio" value="2nd Year"/>
+    2nd Year
+    <input name="year" type="radio" value="3rd Year"/>
+    3rd Year
+    <input name="year" type="radio" value="4th Year"/>
+    4th Year
+    <label>
+     Choose Events:
+    </label>
+    <input name="event" type="checkbox" value="CodeSprint"/>
+    CodeSprint
+    <br/>
+    <input name="event" type="checkbox" value="RoboRumble"/>
+    RoboRumble
+    <br/>
+    <input name="event" type="checkbox" value="PixelPerfect"/>
+    Freefire smack
+    <br/>
+    <input name="event" type="checkbox" value="QuizQuest"/>
+    QuizQuest
+    <br/>
+    <input name="event" type="checkbox" value="BGMI"/>
+    BGMI Showdown
+    <br/>
+    <input name="event" type="checkbox" value="Project Expo"/>
+    Blue sprint
+    <label for="message">
+     Message:
+    </label>
+    <textarea id="message" name="message" placeholder="Write your message"></textarea>
+    <br/>
+    <button type="submit">
+     Submit
+    </button>
+    <button type="reset">
+     Reset
+    </button>
+   </form>
+   <p>
+    <small>
+     This sample form does not save data.
+    </small>
+   </p>
+  </main>
+  <footer>
+   <p>
+    TechFest 2027 | College Main Campus
+   </p>
+  </footer>
+ </body>
+</html>
